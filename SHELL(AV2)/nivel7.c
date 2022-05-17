@@ -1,5 +1,5 @@
 #define _POSIX_C_SOURCE 200112L
-//Programa realizado por manuel Hegedus y Bartomeu Capó Salas
+//Programa realizado por Emanuel Hegedus y Bartomeu Capó Salas
 #define COMMAND_LINE_SIZE 1024
 #define ARGS_SIZE 64
 #define N_JOBS 64
@@ -11,6 +11,7 @@
 #define MAGENTA "\x1b[35m"
 #define CYAN "\x1b[36m"
 #define COLOR_RESET "\x1b[0m"
+//Comentar/descomentar para activar/desactivar
 //#define USE_READLINE
 #include "my_shell.h"
 
