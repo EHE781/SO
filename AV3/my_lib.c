@@ -1,4 +1,4 @@
-//Desarrolladores del código: Joan Gil Rigo, Bartomeu Capó Salas y Emanuel Hegedus
+//Desarrolladores del código: Bartomeu Capó Salas y Emanuel Hegedus
 #include "my_lib.h"
 
 //my_stdio

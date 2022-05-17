@@ -1,5 +1,5 @@
 #define _POSIX_C_SOURCE 200112L
-//Programa realizado por Joan Gil Rigo, Emanuel Hegedus y Bartomeu Capó Salas
+//Programa realizado por manuel Hegedus y Bartomeu Capó Salas
 #define COMMAND_LINE_SIZE 1024
 #define ARGS_SIZE 64
 #define N_JOBS 64

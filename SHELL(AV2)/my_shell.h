@@ -1,4 +1,4 @@
-//Programa realizado por Joan Gil Rigo, Emanuel Hegedus y Bartomeu Capó Salas
+//Programa realizado por Emanuel Hegedus y Bartomeu Capó Salas
 #include <stdio.h>
 #ifdef USE_READLINE
 #include "/usr/include/readline/readline.h"
