@@ -1,8 +1,8 @@
 //Programa realizado por Emanuel Hegedus y Bartomeu Capó Salas
 #include <stdio.h>
 #ifdef USE_READLINE
-#include "/usr/include/readline/readline.h"
-#include "/usr/include/readline/history.h"
+#include <readline/readline.h>
+#include <readline/history.h>
 #endif
 #include <stdlib.h>
 #include <string.h>
@@ -14,6 +14,18 @@
 #include <sys/stat.h>
 #include <signal.h>
 #include <stdbool.h>
+
+#define COMMAND_LINE_SIZE 1024
+#define ARGS_SIZE 64
+#define N_JOBS 64
+#define PROMPT '$'
+#define RED "\x1b[31m"
+#define GREEN "\x1b[32m"
+#define YELLOW "\x1b[33m"
+#define BLUE "\x1b[34m"
+#define MAGENTA "\x1b[35m"
+#define CYAN "\x1b[36m"
+#define COLOR_RESET "\x1b[0m"
 
 char *read_line(char *line);
 int execute_line(char*line);

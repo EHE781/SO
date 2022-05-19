@@ -1,18 +1,7 @@
 #define _POSIX_C_SOURCE 200112L
 //Programa realizado por Emanuel Hegedus y Bartomeu Capó Salas
-#define COMMAND_LINE_SIZE 1024
-#define ARGS_SIZE 64
-#define N_JOBS 64
-#define PROMPT '$'
-#define RED "\x1b[31m"
-#define GREEN "\x1b[32m"
-#define YELLOW "\x1b[33m"
-#define BLUE "\x1b[34m"
-#define MAGENTA "\x1b[35m"
-#define CYAN "\x1b[36m"
-#define COLOR_RESET "\x1b[0m"
 //Comentar/descomentar para activar/desactivar
-//#define USE_READLINE
+#define USE_READLINE
 #include "my_shell.h"
 
 static struct info_process jobs_list[N_JOBS];
